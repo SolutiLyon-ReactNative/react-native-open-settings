@@ -6,7 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RCTBridge.h>
+#import <UIKit/UIKit.h>
+#import <React/RCTBridgeModule.h>
 
 @interface RNOpenSettings : NSObject <RCTBridgeModule>
 
