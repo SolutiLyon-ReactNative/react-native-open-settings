@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "190C8BA91BEAADCC00CD505E"
-               BuildableName = "libReact Native Open Settings.a"
-               BlueprintName = "React Native Open Settings"
-               ReferencedContainer = "container:React Native Open Settings.xcodeproj">
+               BuildableName = "libRNOpenSettings.a"
+               BlueprintName = "RNOpenSettings"
+               ReferencedContainer = "container:RNOpenSettings.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "190C8BA91BEAADCC00CD505E"
-            BuildableName = "libReact Native Open Settings.a"
-            BlueprintName = "React Native Open Settings"
-            ReferencedContainer = "container:React Native Open Settings.xcodeproj">
+            BuildableName = "libRNOpenSettings.a"
+            BlueprintName = "RNOpenSettings"
+            ReferencedContainer = "container:RNOpenSettings.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "190C8BA91BEAADCC00CD505E"
-            BuildableName = "libReact Native Open Settings.a"
-            BlueprintName = "React Native Open Settings"
-            ReferencedContainer = "container:React Native Open Settings.xcodeproj">
+            BuildableName = "libRNOpenSettings.a"
+            BlueprintName = "RNOpenSettings"
+            ReferencedContainer = "container:RNOpenSettings.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

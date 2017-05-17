@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		190C8BAE1BEAADCC00CD505E /* RNOpenSettings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 190C8BAD1BEAADCC00CD505E /* RNOpenSettings.h */; };
-		190C8BB01BEAADCC00CD505E /* RNOpenSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 190C8BAF1BEAADCC00CD505E /* RNOpenSettings.m */; };
+		3A4860171ECC83E7004BB489 /* RNOpenSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4860161ECC83E7004BB489 /* RNOpenSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +17,15 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				190C8BAE1BEAADCC00CD505E /* RNOpenSettings.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		190C8BAA1BEAADCC00CD505E /* libReact Native Open Settings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libReact Native Open Settings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		190C8BAD1BEAADCC00CD505E /* RNOpenSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNOpenSettings.h; sourceTree = "<group>"; };
-		190C8BAF1BEAADCC00CD505E /* RNOpenSettings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNOpenSettings.m; sourceTree = "<group>"; };
+		190C8BAA1BEAADCC00CD505E /* libRNOpenSettings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNOpenSettings.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4860151ECC83E7004BB489 /* RNOpenSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNOpenSettings.h; sourceTree = "<group>"; };
+		3A4860161ECC83E7004BB489 /* RNOpenSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNOpenSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +42,7 @@
 		190C8BA11BEAADCC00CD505E = {
 			isa = PBXGroup;
 			children = (
-				190C8BAD1BEAADCC00CD505E /* RNOpenSettings.h */,
-				190C8BAF1BEAADCC00CD505E /* RNOpenSettings.m */,
+				3A4860141ECC83E7004BB489 /* RNOpenSettings */,
 				190C8BAB1BEAADCC00CD505E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,17 +50,26 @@
 		190C8BAB1BEAADCC00CD505E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				190C8BAA1BEAADCC00CD505E /* libReact Native Open Settings.a */,
+				190C8BAA1BEAADCC00CD505E /* libRNOpenSettings.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3A4860141ECC83E7004BB489 /* RNOpenSettings */ = {
+			isa = PBXGroup;
+			children = (
+				3A4860151ECC83E7004BB489 /* RNOpenSettings.h */,
+				3A4860161ECC83E7004BB489 /* RNOpenSettings.m */,
+			);
+			path = RNOpenSettings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		190C8BA91BEAADCC00CD505E /* React Native Open Settings */ = {
+		190C8BA91BEAADCC00CD505E /* RNOpenSettings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 190C8BB31BEAADCC00CD505E /* Build configuration list for PBXNativeTarget "React Native Open Settings" */;
+			buildConfigurationList = 190C8BB31BEAADCC00CD505E /* Build configuration list for PBXNativeTarget "RNOpenSettings" */;
 			buildPhases = (
 				190C8BA61BEAADCC00CD505E /* Sources */,
 				190C8BA71BEAADCC00CD505E /* Frameworks */,
@@ -73,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "React Native Open Settings";
-			productName = "React Native Open Settings";
-			productReference = 190C8BAA1BEAADCC00CD505E /* libReact Native Open Settings.a */;
+			name = RNOpenSettings;
+			productName = "RNOpenSettings";
+			productReference = 190C8BAA1BEAADCC00CD505E /* libRNOpenSettings.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -92,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 190C8BA51BEAADCC00CD505E /* Build configuration list for PBXProject "React Native Open Settings" */;
+			buildConfigurationList = 190C8BA51BEAADCC00CD505E /* Build configuration list for PBXProject "RNOpenSettings" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -104,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				190C8BA91BEAADCC00CD505E /* React Native Open Settings */,
+				190C8BA91BEAADCC00CD505E /* RNOpenSettings */,
 			);
 		};
 /* End PBXProject section */
@@ -114,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190C8BB01BEAADCC00CD505E /* RNOpenSettings.m in Sources */,
+				3A4860171ECC83E7004BB489 /* RNOpenSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +234,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		190C8BA51BEAADCC00CD505E /* Build configuration list for PBXProject "React Native Open Settings" */ = {
+		190C8BA51BEAADCC00CD505E /* Build configuration list for PBXProject "RNOpenSettings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				190C8BB11BEAADCC00CD505E /* Debug */,
@@ -237,7 +243,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		190C8BB31BEAADCC00CD505E /* Build configuration list for PBXNativeTarget "React Native Open Settings" */ = {
+		190C8BB31BEAADCC00CD505E /* Build configuration list for PBXNativeTarget "RNOpenSettings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				190C8BB41BEAADCC00CD505E /* Debug */,
